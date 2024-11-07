@@ -59,6 +59,17 @@ body{
   border-radius: 5px;
   width: 23%;
   margin-top: 2rem;
+  animation-name: round;
+  animation-duration: 1s;
+  animation-iteration-count: 4;
+}
+@keyframes round {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 
 .first .right img{
@@ -171,7 +182,7 @@ body{
   display: flex;
 }
 
-.third .left .third-content{
+.third .left .left-content{
   width: 70%;
   margin-left: 9rem;
   margin-top: 8rem;
@@ -283,3 +294,4 @@ body{
   font-size: 16px;
   margin-top: 50px;
 }
+
